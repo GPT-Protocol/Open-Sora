@@ -15,9 +15,11 @@ python-dotenv
 # [gradio]
 gradio>=4.26.0
 spaces>=0.28.3
+
 # [notebook]
 ipykernel>=6.29.4
 ipywidgets>=8.1.2
+
 # [training]
 wandb>=0.17.0
 tensorboard>=2.14.0
