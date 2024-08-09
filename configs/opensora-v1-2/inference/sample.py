@@ -1,6 +1,6 @@
 resolution = "240p"
 aspect_ratio = "9:16"
-num_frames = 51
+num_frames = 60
 fps = 15
 frame_interval = 1
 save_fps = 24
@@ -34,7 +34,7 @@ text_encoder = dict(
 scheduler = dict(
     type="rflow",
     use_timestep_transform=True,
-    num_sampling_steps=60,
+    num_sampling_steps=90,
     cfg_scale=7.0,
 )
 
